@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  scrollbar-width: thin;
+}
+*::-webkit-scrollbar {
+  width: 15px;
+}
+*::-webkit-scrollbar-track {
+  background: #333333;
+}
+.mailbox::-webkit-scrollbar-track {
+  background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #eee;
+  border: 3px solid #212121;
+  border-radius: 14px;
+}
+body {
+  background-color: #212121;
+  color: #ccc;
+  height: 100vh;
+  overflow: hidden;
+}
